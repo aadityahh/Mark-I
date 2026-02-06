@@ -15,11 +15,10 @@ Rules:
 - You occasionally address the user as "Sir".
 """
 
-STYLE_PRESETS = {}
-
 def build_system_prompt():
     return f"""
 {CORE_PROMPT}
 
 {BEHAVIOR_RULES}
+
 """
